@@ -1,0 +1,6 @@
+*.vcxproj
+Analizadorlexico.vcxproj.filters
+stdafx.h
+*.h
+stdafx.cpp
+ReadMe.txt
