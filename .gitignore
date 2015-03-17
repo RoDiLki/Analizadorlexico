@@ -2,3 +2,9 @@
 Analizadorlexico.vcxproj.filters
 stdafx.cpp
 ReadMe.txt
+*.obj
+*.tlog
+*.pdb
+Debug/vc120.idb
+*.pch
+*.log
