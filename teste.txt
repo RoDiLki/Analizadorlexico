@@ -1,4 +1,8 @@
 int hue
-if(hue>1){
-	haha = 5
+
+
+if ( hue > 1 ) {
+	haha=5
+
+	inthue = 6;
 }

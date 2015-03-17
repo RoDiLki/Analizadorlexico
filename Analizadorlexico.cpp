@@ -13,6 +13,8 @@
 
 using namespace std;
 
+vector<vector <string>> codentrada;
+
 int main()
 {
 	ifstream infile("teste.txt");
@@ -25,12 +27,27 @@ int main()
 
 		while (iss >> n){
 			v.push_back(n);
+			//v.push_back(" ");
 		}
-
+		codentrada.push_back(v);
 	}
 	infile.close();
+	
+	int sizeee = codentrada.size();
+
+	for (int i = 0; i < codentrada.size(); i++)
+	{
+		for (int j = 0; j < codentrada[i].size(); j++)
+		{
+			cout << codentrada[i][j];
+			
+		}
+		cout << endl;
+		
+	}
 	int para;
 	cin >> para;
+
 	return 0;
 }
 
