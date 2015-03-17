@@ -1,0 +1,4 @@
+int hue
+if(hue>1){
+	haha = 5
+}
