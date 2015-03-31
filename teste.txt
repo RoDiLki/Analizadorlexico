@@ -1,8 +1,12 @@
-int hue
+#include <penis.h>
 
+void chupisco();
 
-if ( hue > 1 ) {
-	haha=5
+int floati, i;
 
+int hue;
+chupisco();
+if(hue >= 1){ //hueuhehuehue uheuhe hueuh
+	float haha=665;
 	inthue = 6;
 }
